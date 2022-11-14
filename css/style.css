@@ -26,7 +26,7 @@ header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 0.7rem;
+    font-size: 0.85rem;
     padding: 0 1rem;
     max-width: 1000px;
     margin: 0 auto;
@@ -42,5 +42,49 @@ header nav {
 }
 
 #bottom-header {
-    
+    font-size: 0.8rem;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#bottom-header h3 {
+    font-size: 1.2rem;
+}
+
+#bottom-header a {
+    color: #333;
+}
+
+#bottom-header-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottom-header-inner a {
+    margin: 0 0.5rem;
+}
+
+#bottom-header-inner .btn,
+.btn {
+    background-color: #0071e3;
+    color: white;
+    border-radius: 10rem;
+    padding: 0.5rem 1rem;
+}
+
+/* conteudo */
+
+#ribbon {
+    text-align: center;
+    padding: 1rem;
+    background-color: #F5f5F7;
+    color: #1d1d1d;
+    font-size: 0.85rem;
+}
+
+#ribbon a {
+    color: #0071e3;
 }
