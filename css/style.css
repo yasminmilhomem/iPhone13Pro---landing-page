@@ -193,3 +193,7 @@ header nav {
 #blue .color {
     background-color: #5989a3;
 }
+
+.selected {
+    outline: 2.5px solid #43a1ff;
+}
