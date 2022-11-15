@@ -88,3 +88,32 @@ header nav {
 #ribbon a {
     color: #0071e3;
 }
+
+#main-content {
+    text-align: center;
+    color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-content #title {
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+
+#main-content #subtitle {
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
+    will-change: transform;
+    background-color: #2ca2b4 0%;
+}
+
+#main-content .btn {
+    
+}
