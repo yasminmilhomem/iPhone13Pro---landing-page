@@ -131,3 +131,9 @@ header nav {
     padding: 0.8rem 1.4rem;
     align-self: center;
 }
+
+#main-content #product-image {
+    max-width: 1000px;
+    margin: 3rem auto;
+    opacity: 1; 
+}
