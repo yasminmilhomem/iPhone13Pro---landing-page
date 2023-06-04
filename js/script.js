@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const buttons = document.querySelectorAll("#image-picker li"); 
 const image = document.querySelector("#product-image");
 
@@ -24,7 +23,8 @@ buttons.forEach((btn) => {
     }, 200);
   });
 });
-=======
+
+/* 
 const buttons = document.querySelectorAll("#image-picker li"); //a constante buttons pega o conteúdo da id indicada
 const image = document.querySelector("#product-image"); //a constante image pega o conteúdo da id indicada
 
@@ -50,4 +50,4 @@ buttons.forEach((btn) => { //a função forEach executa uma dada função em cad
     }, 200);
   });
 });
->>>>>>> b86e15566c66148e88389a49bf0305fcdabb331f
+>>>>>>> b86e15566c66148e88389a49bf0305fcdabb331f */
